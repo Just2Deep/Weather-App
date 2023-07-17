@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: Poppins, sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #222;
+}
+
+.card {
+    flex: 1;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    margin: 2rem auto 0;
+    width: 30%;
+    border-radius: 2rem;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin: 20px auto 0;
+    padding: 1rem;
+}
+
+.search input {
+    outline: none;
+    border-radius: 0.8rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.search button {
+    outline: none;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 50%;
+}
+
+.weather {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.temp {
+    font-size: 4rem;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+}
+
+.city {
+    font-size: 3rem;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.details {
+    display: flex;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem;
+}
+
+.humidity,
+.wind {
+    font-size: 1.3rem;
+}
+
+.humidity__image,
+.wind__image {
+    margin-right: 1rem;
+}
